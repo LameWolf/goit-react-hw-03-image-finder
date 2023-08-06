@@ -18,7 +18,6 @@ export class App extends Component {
     page: 1,
     totalHits: null,
     largeImageURL: '',
-    prevQuery: '',
   };
 
   componentDidUpdate(prevProps, prevState) {
